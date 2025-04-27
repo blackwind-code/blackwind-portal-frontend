@@ -56,7 +56,7 @@ const HomePage: NextPage = () => {
           <div>paragraph3</div>
         </section>
       </div>
-      <div>
+      <div className="w-full">
         Footer
       </div>
     </div>
