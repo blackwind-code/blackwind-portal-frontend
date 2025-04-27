@@ -56,6 +56,9 @@ const HomePage: NextPage = () => {
           <div>paragraph3</div>
         </section>
       </div>
+      <div>
+        Footer
+      </div>
     </div>
   );
 };
