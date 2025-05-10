@@ -71,6 +71,18 @@ const HomePage: NextPage = () => {
               <h3 className="text-xl font-semibold text-[#1E293B]">다양한 문제를 컴퓨터 기술로 해결하자</h3>
             </div>
 
+            {/* 프로젝트 카드들 */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+              {/* 첫 번째 카드 - 이미지 */}
+              <div className="flex flex-col items-center space-y-2">
+                <img
+                  src="/images/dalgu.jpg"
+                  alt="프로젝트1"
+                  className="rounded-lg w-full aspect-square object-cover"
+                />
+                <span className="text-sm font-semibold">프로젝트1</span>
+              </div>
+          </div>
           </div>
         </section>
         <section className="h-screen snap-start bg-gray-300 text-black p-10 pt-[64px]">
