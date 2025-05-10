@@ -49,7 +49,7 @@ const HomePage: NextPage = () => {
         <section className="h-screen snap-start bg-white text-black p-10 pt-[64px]">
           <div></div>
         </section>
-        <section className="h-screen snap-start bg-gray-100 text-black p-10 pt-[64px]">
+        <section className="h-screen snap-start bg-white text-black p-10 pt-[64px]">
           <div className="max-w-4xl mx-auto space-y-6">
             <h2 className="text-3xl font-bold">ABOUT</h2>
             <h3 className="text-xl font-semibold">다양한 문제를 컴퓨터 기술로 해결하자</h3>
@@ -63,7 +63,7 @@ const HomePage: NextPage = () => {
             </ul>
           </div>
         </section>
-        <section className="h-screen snap-start bg-gray-100 text-black p-10 pt-[64px]">
+        <section className="h-screen snap-start bg-white text-black p-10 pt-[64px]">
           <div className="max-w-6xl mx-auto space-y-10">
             {/* 제목 + 부제목 */}
             <div className="space-y-2">
@@ -94,13 +94,13 @@ const HomePage: NextPage = () => {
 
           {/* 더보기 버튼 */}
           <div className="flex justify-end">
-            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+            <button className="bg-blue-500 text-black px-4 py-2 rounded hover:bg-blue-600">
               더보기
             </button>
           </div>
           </div>
         </section>
-        <section className="h-screen snap-start bg-gray-300 text-black p-10 pt-[64px]">
+        <section className="h-screen snap-start bg-white text-black p-10 pt-[64px]">
           <div className="max-w-6xl mx-auto space-y-10">
             {/* 제목 */}
             <div className="space-y-2">
@@ -109,7 +109,7 @@ const HomePage: NextPage = () => {
             </div>  
           </div>
         </section>
-        <section className="snap-start w-full bg-[#1F3C70] text-gray-300 py-6 px-6 md:px-20">
+        <section className="snap-start w-full bg-[#1F3C70] text-white py-6 px-6 md:px-20">
           <div className="text-left space-y-4">
             <h2 className="text-xl font-bold">Blackwind</h2>
             <div className="text-sm leading-relaxed">
