@@ -101,7 +101,13 @@ const HomePage: NextPage = () => {
           </div>
         </section>
         <section className="h-screen snap-start bg-gray-300 text-black p-10 pt-[64px]">
-          <div>paragraph3</div>
+          <div className="max-w-6xl mx-auto space-y-10">
+            {/* 제목 */}
+            <div className="space-y-2">
+              <h2 className="text-3xl font-extrabold tracking-tight">ACTIVITIES</h2>
+              <h3 className="text-xl font-semifold text-[#1E293B]">다양한 문제를 컴퓨터 기술로 해결하자</h3>  
+            </div>  
+          </div>
         </section>
         <section className="snap-start w-full bg-[#1F3C70] text-gray-300 py-6 px-6 md:px-20">
           <div className="text-left space-y-4">
