@@ -54,7 +54,11 @@ const HomePage: NextPage = () => {
               현풍전산은 2018년에 창설되어 다양한 문제를 컴퓨터로 해결하고자 하는 DGIST 슈퍼컴퓨팅시 교육연구센터 산하의 동아리입니다.
               프로젝트와 교류를 통해 개인적 역량을 지속 가능하고 꾸준한 성장을 목표로 합니다.
             </p>
-            </div>
+            <ul className="list-disc list-inside text-base">
+              <li>자체 클라우드 구축</li>
+              <li>타 대학과 교류류</li>
+            </ul>
+          </div>
         </section>
         <section className="h-screen snap-start bg-gray-100 text-black p-10 pt-[64px]">
           <div>paragraph2</div>
