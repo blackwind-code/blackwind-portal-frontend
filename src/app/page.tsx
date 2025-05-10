@@ -76,7 +76,7 @@ const HomePage: NextPage = () => {
               {/* 첫 번째 카드 - 이미지 */}
               <div className="flex flex-col items-center space-y-2">
                 <img
-                  src="/images/dalgu.jpg"
+                  src="/images/images.png"
                   alt="프로젝트1"
                   className="rounded-lg w-full aspect-square object-cover"
                 />
