@@ -47,7 +47,11 @@ const HomePage: NextPage = () => {
         className="h-screen overflow-y-scroll snap-y snap-mandatory"
       >
         <section className="h-screen snap-start bg-white text-black p-10 pt-[64px]">
-          <div>paragraph1</div>
+          <div className="max-w-4xl mx-auto space-y-6">
+            <h2 className="text-3xl font-bold">ABOUT</h2>
+            
+            
+            </div>
         </section>
         <section className="h-screen snap-start bg-gray-100 text-black p-10 pt-[64px]">
           <div>paragraph2</div>
