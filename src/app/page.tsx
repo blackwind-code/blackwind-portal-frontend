@@ -54,10 +54,7 @@ const HomePage: NextPage = () => {
         </section>
         <section className="h-screen snap-start bg-gray-300 text-black p-10 pt-[64px]">
           <div>paragraph3</div>
-        </section>
-      </div>
-      <div className="w-full">
-        Footer
+        </section>  
       </div>
         <div className="w-full bg-[#1F3C70] text-white py-10 px-6 md:px-20">
           <div className="text-left space-y-4">
