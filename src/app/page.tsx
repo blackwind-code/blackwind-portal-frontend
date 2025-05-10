@@ -47,6 +47,9 @@ const HomePage: NextPage = () => {
         className="h-screen overflow-y-scroll snap-y snap-mandatory"
       >
         <section className="h-screen snap-start bg-white text-black p-10 pt-[64px]">
+          <div>paragraph1</div>
+        </section>
+        <section className="h-screen snap-start bg-white text-black p-10 pt-[64px]">
           <div className="max-w-4xl mx-auto space-y-6">
             <h2 className="text-3xl font-bold">ABOUT</h2>
             <h3 className="text-xl font-semibold">다양한 문제를 컴퓨터 기술로 해결하자</h3>
