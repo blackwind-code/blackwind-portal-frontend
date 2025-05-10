@@ -82,6 +82,14 @@ const HomePage: NextPage = () => {
                 />
                 <span className="text-sm font-semibold">프로젝트1</span>
               </div>
+
+              {/* 나머지 카드들 - placeholder */}
+              {[...Array(4)].map((_, i) => (
+                <div key={i} className="flex flex-col items-center space-y-2">
+                  <div className="rounded-lg w-full aspect-square bg-[#34558B]" />
+                  <span className="text-sm font-semibold">프로젝트1</span>
+                </div>
+              ))}
           </div>
           </div>
         </section>
