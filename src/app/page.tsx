@@ -115,6 +115,9 @@ const HomePage: NextPage = () => {
                 <h4 className="text-xl font-bold">해커톤</h4>
                 <p className="text-base text-black">해커톤 안했어요 ^^</p>
                 </div>
+
+                {/* 오른쪽 파란 박스 */}
+                <div className="bg-[#34558B] w-full aspect-video rounded-lg" />  
               </div>  
           </div>
         </section>
