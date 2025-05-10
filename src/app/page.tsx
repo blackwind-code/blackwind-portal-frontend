@@ -47,7 +47,7 @@ const HomePage: NextPage = () => {
         className="h-screen overflow-y-scroll snap-y snap-mandatory"
       >
         <section className="h-screen snap-start bg-white text-black p-10 pt-[64px]">
-          <div>paragraph1</div>
+          <div></div>
         </section>
         <section className="h-screen snap-start bg-gray-100 text-black p-10 pt-[64px]">
           <div className="max-w-4xl mx-auto space-y-6">
@@ -64,7 +64,14 @@ const HomePage: NextPage = () => {
           </div>
         </section>
         <section className="h-screen snap-start bg-gray-100 text-black p-10 pt-[64px]">
-          <div>paragraph2</div>
+          <div className="max-w-6xl mx-auto space-y-10">
+            {/* 제목 + 부제목 */}
+            <div className="space-y-2">
+              <h2 className="text-3xl font-extrabold tracking-tight">PROJECTS</h2>
+              <h3 className="text-xl font-semibold text-[#1E293B]">다양한 문제를 컴퓨터 기술로 해결하자</h3>
+            </div>
+
+          </div>
         </section>
         <section className="h-screen snap-start bg-gray-300 text-black p-10 pt-[64px]">
           <div>paragraph3</div>
