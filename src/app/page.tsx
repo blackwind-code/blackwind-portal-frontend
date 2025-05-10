@@ -59,7 +59,7 @@ const HomePage: NextPage = () => {
             </p>
             <ul className="list-disc list-inside text-base">
               <li>자체 클라우드 구축</li>
-              <li>타 대학과 교류류</li>
+              <li>타 대학과 교류</li>
             </ul>
           </div>
         </section>
