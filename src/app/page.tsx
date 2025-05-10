@@ -49,8 +49,11 @@ const HomePage: NextPage = () => {
         <section className="h-screen snap-start bg-white text-black p-10 pt-[64px]">
           <div className="max-w-4xl mx-auto space-y-6">
             <h2 className="text-3xl font-bold">ABOUT</h2>
-            
-            
+            <h3 className="text-xl font-semibold">다양한 문제를 컴퓨터 기술로 해결하자</h3>
+            <p className="text-base leading-relaxed">
+              현풍전산은 2018년에 창설되어 다양한 문제를 컴퓨터로 해결하고자 하는 DGIST 슈퍼컴퓨팅시 교육연구센터 산하의 동아리입니다.
+              프로젝트와 교류를 통해 개인적 역량을 지속 가능하고 꾸준한 성장을 목표로 합니다.
+            </p>
             </div>
         </section>
         <section className="h-screen snap-start bg-gray-100 text-black p-10 pt-[64px]">
