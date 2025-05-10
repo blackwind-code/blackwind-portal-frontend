@@ -106,7 +106,16 @@ const HomePage: NextPage = () => {
             <div className="space-y-2">
               <h2 className="text-3xl font-extrabold tracking-tight">ACTIVITIES</h2>
               <h3 className="text-xl font-semifold text-[#1E293B]">다양한 문제를 컴퓨터 기술로 해결하자</h3>  
-            </div>  
+            </div>
+
+            {/* 콘텐츠 본문 */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+              {/* 왼쪽 텍스트 */}
+              <div className="space-y-3">
+                <h4 className="text-xl font-bold">해커톤</h4>
+                <p className="text-base text-black">해커톤 안했어요 ^^</p>
+                </div>
+              </div>  
           </div>
         </section>
         <section className="snap-start w-full bg-[#1F3C70] text-white py-6 px-6 md:px-20">
