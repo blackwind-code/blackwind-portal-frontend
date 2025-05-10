@@ -70,7 +70,10 @@ const HomePage: NextPage = () => {
               >
                 blackwind@dgist.ac.kr
                 </a>
-            </div>
+                </div>
+                <div className="text-sm text-gray-300">
+                   인스타, 깃허브, 노션, 이메일
+          </div>
         </div>
       </div>
     </div>
