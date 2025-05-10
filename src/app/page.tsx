@@ -68,9 +68,8 @@ const HomePage: NextPage = () => {
         </section>
         <section className="h-screen snap-start bg-gray-300 text-black p-10 pt-[64px]">
           <div>paragraph3</div>
-        </section>  
-      </div>
-        <div className="w-full bg-[#1F3C70] text-gray-300 py-6 px-6 md:px-20">
+        </section>
+        <section className="snap-start w-full bg-[#1F3C70] text-gray-300 py-6 px-6 md:px-20">
           <div className="text-left space-y-4">
             <h2 className="text-xl font-bold">Blackwind</h2>
             <div className="text-sm leading-relaxed">
@@ -80,12 +79,13 @@ const HomePage: NextPage = () => {
                 className="underline hover:text-gray-300"
               >
                 blackwind@dgist.ac.kr
-                </a>
-                </div>
-                <div className="text-sm text-gray-300">
-                   인스타, 깃허브, 노션, 이메일
+              </a>
+            </div>
+            <div className="text-sm text-gray-300">
+              인스타, 깃허브, 노션, 이메일
+            </div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   );
