@@ -3,7 +3,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { NextPage } from "next";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Footer from "../components/atoms/Footer/footer";
+import Footer from "../components/atoms/Footer/footer"
 
 const HomePage: NextPage = () => {
   const [viewportHeight, setViewportHeight] = useState(0);
@@ -122,7 +122,9 @@ const HomePage: NextPage = () => {
               </div>  
           </div>
         </section>
+        <section>
         <Footer />
+        </section>
       </div>
     </div>
   );

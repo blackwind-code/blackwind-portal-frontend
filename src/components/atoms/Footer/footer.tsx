@@ -1,8 +1,9 @@
-// components/Footer.tsx
+// components/atoms/Footer/footer.tsx
+
 const Footer = () => {
   return (
-    <section className="w-full bg-[#1F3C70] text-white py-6 px-6 md:px-20">
-      <div className="text-left space-y-4">
+    <section className="snap-start bg-[#1F3C70] text-white p-10 pt-[64px]">
+      <div className="max-w-4xl mx-auto space-y-6">
         <h2 className="text-xl font-bold">Blackwind</h2>
         <div className="text-sm leading-relaxed">
           대구광역시 달성군 유가읍 테크노중앙대로 333 E10 B131호<br />
