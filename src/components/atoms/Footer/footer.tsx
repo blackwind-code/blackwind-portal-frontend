@@ -1,7 +1,7 @@
 // components/Footer.tsx
 const Footer = () => {
   return (
-    <section className="snap-start w-full bg-[#1F3C70] text-white py-6 px-6 md:px-20">
+    <section className="w-full bg-[#1F3C70] text-white py-6 px-6 md:px-20">
       <div className="text-left space-y-4">
         <h2 className="text-xl font-bold">Blackwind</h2>
         <div className="text-sm leading-relaxed">
